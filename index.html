@@ -139,26 +139,36 @@
         margin: 0 auto;
         font-family: "Merienda", cursive;
         border-style: none;
-        border-radius: 20px;
+        border-radius: 16px;
         padding: 10px;
         box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 
         color: whitesmoke;
-        background: radial-gradient(
-          circle at 3.9% 11.3%,
-          rgb(237, 120, 153) 0%,
-          rgb(238, 216, 190) 71.6%,
-          rgb(249, 238, 221) 99.8%
+        background: linear-gradient(
+          0deg,
+          rgb(247, 247, 247) 23.8%,
+          rgb(252, 221, 221) 92%
         );
+
         transition: all 200ms ease-in-out;
       }
 
       button:hover {
         background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+        font-size: 20px;
       }
       footer {
         text-align: center;
         text-shadow: 21px 14px 8px rgba(75, 0, 75, 0.7);
+        color: #4b004b;
+      }
+      footer a {
+        color: white;
+        font-size: 20px;
+        transition: all 200ms ease-in-out;
+      }
+      footer a:hover {
+        font-size: 22px;
         color: #4b004b;
       }
     </style>
